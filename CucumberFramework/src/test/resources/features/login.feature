@@ -13,4 +13,3 @@ Feature: Sign In
     When I enter username as "admin"
     And I enter password as "password"
     And Click on login button
-   
