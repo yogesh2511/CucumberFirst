@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="17225" started-at="2020-01-23T17:31:49Z" finished-at="2020-01-23T17:32:06Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:CIVICA.CucumberFramework.testRunner.TestRunner@19c0f4a]" name="feature" class="CIVICA.CucumberFramework.testRunner.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="17225" started-at="2020-01-23T17:31:49Z" finished-at="2020-01-23T17:32:06Z">
+      <class name="CIVICA.CucumberFramework.testRunner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:CIVICA.CucumberFramework.testRunner.TestRunner@19c0f4a]" name="setUpClass" is-config="true" duration-ms="442" started-at="2020-01-23T23:01:49Z" finished-at="2020-01-23T23:01:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:CIVICA.CucumberFramework.testRunner.TestRunner@19c0f4a]" name="feature" duration-ms="16639" started-at="2020-01-23T23:01:49Z" description="Runs cucmber Features" data-provider="features" finished-at="2020-01-23T23:02:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sign In]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="testDownClass()[pri:0, instance:CIVICA.CucumberFramework.testRunner.TestRunner@19c0f4a]" name="testDownClass" is-config="true" duration-ms="14" started-at="2020-01-23T23:02:06Z" finished-at="2020-01-23T23:02:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDownClass -->
+      </class> <!-- CIVICA.CucumberFramework.testRunner.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
